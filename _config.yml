@@ -50,13 +50,13 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Hydejack
-    url:               /hydejack/
+    url:               /hydejack/hydejack/
   - title:             Hyde
-    url:               /hyde/
+    url:               /hydejack/hyde/
   - title:             Documentation
-    url:               /docs/
+    url:               /hydejack/docs/
   - title:             About
-    url:               /about/
+    url:               /hydejack/about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
