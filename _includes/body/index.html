@@ -1,16 +1,5 @@
 {% include body/menu.html %}
 
-<script type="text/javascript">
-    google_ad_client = "ca-pub-2606770756912688";
-    google_ad_slot = "5154527092";
-    google_ad_width = 970;
-    google_ad_height = 90;
-</script>
-<!-- Main -->
-<script type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-
 <hy-push-state
   replace-ids="_main"
   link-selector="a[href]:not([href*='/assets/']):not(.external):not(.no-push-state)"
@@ -23,6 +12,18 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
     {% include body/main.html %}
   {% else %}
     {% include body/main.html %}
+    
+<script type="text/javascript">
+    google_ad_client = "ca-pub-2606770756912688";
+    google_ad_slot = "5154527092";
+    google_ad_width = 970;
+    google_ad_height = 90;
+</script>
+<!-- Main -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+    
     {% include body/sidebar.html %}
   {% endif %}
 </hy-push-state>
