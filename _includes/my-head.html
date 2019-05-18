@@ -10,4 +10,14 @@ Fallback in case JavaScript isn't enabled.
 Fill in `href`. You may have to adjust `rel`.
 -->
 <noscript><link href="<path/to/content.css>" rel="stylesheet"></noscript>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54081681-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-54081681-2');
+</script>
+<meta name="google-site-verification" content="EE5oSzfD4MWbDvJ_rzY-3im1eJRJtV-ZsVBzhpVYvKc" />
 {% endcomment %}
