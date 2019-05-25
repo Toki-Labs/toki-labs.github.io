@@ -31,7 +31,8 @@ public class BuildEditor
 	[MenuItem("Build/iOS")]
 	public static void BuildiOS()
 	{
-		string buildPath = absPath + "/Xcode";BuildPipeline.BuildPlayer( BuildEditor.GetScenes(), buildPath, BuildTarget.iOS, BuildOptions.AcceptExternalModificationsToPlayer );
+		string buildPath = absPath + "/Xcode";
+		BuildPipeline.BuildPlayer( BuildEditor.GetScenes(), buildPath, BuildTarget.iOS, BuildOptions.AcceptExternalModificationsToPlayer );
 	}
 	
 	public static string absPath
